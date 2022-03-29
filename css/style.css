@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box; /* Sayfamızda padding ve border gibi değerler eklendiğinde içeriklerin genişlemesini önleme amacıyla kullanılır.*/
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: #003666;
+    float: left;
+}
+
+#navbar{
+    float: right;
+    line-height: 80px;
+}
+
+#navbar a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+#navbar a:hover{
+    border-bottom: 2px solid;
+    color: #003666;
+}
+
+#navbar a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#anasayfa{
+    height: 500px;
+    background-image: url("../img/r2.jpg");
+    background-size: cover; /*Bu özellik ile resmi alanımızın içerisine sığdırıyoruz.*/
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 500px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    /*İçeriğin tam orta noktasına göre konumlandırma işlemini yapmak için transform kullanılır.*/
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+#hakkimizda{
+    background-color: #f2f5f8;
+    padding:50px;
+    text-align: center;
+    text-transform: capitalize; /* Yazıların baş harfleri büyük olur.*/
+    font-weight: 600;
+}
+
+
+h3{
+    font-size:55px;
+    color: #003666;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+
+#container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.sol{
+    float: left;
+    border-right: 3px solid #445c6e;
+    font-size: 30px;
+    width: 400px;
+    color: #445c6e;
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #003666;
+    font-weight: 600;
+    float: left;
+}
+
+.sag{
+    float: right;
+    width: 750px;
+    color: #999999;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.img-fluit{
+    max-width: 100%;
+    height: auto;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+#pson{
+    color: #999999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
